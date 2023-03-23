@@ -12,6 +12,7 @@ public class mianxiangduixiang {
         ex.change(ex.str, ex.ch);
         System.out.println(ex.str);//good
         System.out.println(ex.ch);//best
+        //测试冲突
         Boolean.valueOf(true);
     }
 }
