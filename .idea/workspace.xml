@@ -4,9 +4,121 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d09d897-efd5-4c58-bdaa-9d270f6c99c5" name="Changes" comment="ThrowableTest">
+    <list default="true" id="2d09d897-efd5-4c58-bdaa-9d270f6c99c5" name="Changes" comment="ThrowableTest2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/heap/HeapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/LockConditionABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/juc_0405.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/juc_T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/juc_T1_Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/juc_T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juc/juc_timerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T1114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T1145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T1218.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T121买卖股票的时机.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T1475.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T213.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T33搜索旋转排序数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T357.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T363.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T437.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T456.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T522.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T532.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T53最大子数组和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T743.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T907.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/T912.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T106.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T109.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T115.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T16_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T52.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T57.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T61.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T76.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T79所有数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T80含有k个元素的数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T81.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T85.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T87.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T89.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T90.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T95.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T99.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/MethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/TargetObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/meide0417/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/meide0417/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/meide0417/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/pdd0418/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/pdd0418/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/pdd0418/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/pdd0418/T4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/qianxing0524/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/qianxing0524/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/tenxunMusic0413/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/tenxunMusic0413/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/webank/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/webank/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/webank/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/xiecheng0415/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/xiecheng0415/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/xiecheng0415/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/xiecheng0415/T4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/mianxiangduixiang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/mianxiangduixiang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +128,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -38,30 +151,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.mianxiangduixiang">
-    <configuration name="SerializableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serial.SerializableTest" />
+}</component>
+  <component name="RunManager" selected="Application.T2">
+    <configuration name="MethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.MethodTest" />
       <module name="java_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Serial.*" />
+          <option name="PATTERN" value="reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ThrowableTest" />
+    <configuration name="T102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.jianzhiOffer.T102" />
       <module name="java_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.*" />
+          <option name="PATTERN" value="leetcode.jianzhiOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="executorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="juc.executorTest" />
+    <configuration name="T103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.jianzhiOffer.T103" />
       <module name="java_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.*" />
+          <option name="PATTERN" value="leetcode.jianzhiOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mianxiangduixiang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.mianxiangduixiang" />
+    <configuration name="T104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.jianzhiOffer.T104" />
       <module name="java_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="leetcode.jianzhiOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.reader" />
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.qianxing0524.T2" />
       <module name="java_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="test.qianxing0524.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +234,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T61" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.jianzhiOffer.T61" />
+      <module name="java_base" />
+      <option name="PROGRAM_PARAMETERS" value="-XX:+UseParallelGC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.jianzhiOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.T61" />
+      <item itemvalue="Application.MethodTest" />
+      <item itemvalue="Application.T102" />
+      <item itemvalue="Application.T103" />
+      <item itemvalue="Application.T104" />
+      <item itemvalue="Application.T2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mianxiangduixiang" />
-        <item itemvalue="Application.ThrowableTest" />
-        <item itemvalue="Application.SerializableTest" />
-        <item itemvalue="Application.reader" />
-        <item itemvalue="Application.executorTest" />
+        <item itemvalue="Application.T2" />
+        <item itemvalue="Application.MethodTest" />
+        <item itemvalue="Application.T104" />
+        <item itemvalue="Application.T103" />
+        <item itemvalue="Application.T102" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +282,37 @@
       <workItem from="1679481441825" duration="5946000" />
       <workItem from="1679542696250" duration="18000" />
       <workItem from="1679564351521" duration="3804000" />
+      <workItem from="1679708914322" duration="727000" />
+      <workItem from="1679801802575" duration="61000" />
+      <workItem from="1679896541223" duration="4529000" />
+      <workItem from="1679906050808" duration="636000" />
+      <workItem from="1679980721824" duration="4899000" />
+      <workItem from="1680426312971" duration="4432000" />
+      <workItem from="1680507696962" duration="6855000" />
+      <workItem from="1680575172123" duration="2580000" />
+      <workItem from="1680658546351" duration="9804000" />
+      <workItem from="1680678098605" duration="10739000" />
+      <workItem from="1680790627248" duration="1245000" />
+      <workItem from="1680937428325" duration="4070000" />
+      <workItem from="1681264636076" duration="1606000" />
+      <workItem from="1681361162514" duration="24000" />
+      <workItem from="1681383261346" duration="5047000" />
+      <workItem from="1681389401606" duration="25820000" />
+      <workItem from="1681712328328" duration="16000" />
+      <workItem from="1681735084471" duration="3674000" />
+      <workItem from="1681803479182" duration="13912000" />
+      <workItem from="1681823401947" duration="10168000" />
+      <workItem from="1681991662785" duration="6876000" />
+      <workItem from="1682083924339" duration="11878000" />
+      <workItem from="1683026113241" duration="7157000" />
+      <workItem from="1683077803124" duration="2762000" />
+      <workItem from="1683253758839" duration="62553000" />
+      <workItem from="1683940932636" duration="15169000" />
+      <workItem from="1684027971527" duration="11887000" />
+      <workItem from="1684375367299" duration="1296000" />
+      <workItem from="1684495172696" duration="606000" />
+      <workItem from="1684548967799" duration="10000" />
+      <workItem from="1684757609047" duration="22834000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1679564427586</created>
@@ -194,6 +360,285 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="ThrowableTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThrowableTest" />
+    <MESSAGE value="ThrowableTest2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThrowableTest2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T43.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T213.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T115.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T61.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T76.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T76.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/meide0417/T2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/meide0417/T2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/tenxunMusic0413/T1.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/tenxunMusic0413/T1.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T456.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T907.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T1475.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T354.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/pdd0418/T1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/pdd0418/T2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/T532.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T15.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T15.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T15.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T16_2.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/meide0417/T3.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T19.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/webank/T2.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/webank/T3.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/webank/T3.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/webank/T3.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T32.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T34.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T34.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T38.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T39.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T39.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T52.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T53.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T5.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T81.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T81.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T81.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T82.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T85.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T87.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T108.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T108.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T102.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T102.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T103.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T104.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/jianzhiOffer/T104.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.jdks/corretto-1.8.0_332/src.zip!/java/util/Queue.java</url>
+          <line>208</line>
+          <properties class="java.util.Queue" method="element">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="resList.get(0)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_base$T2.ic" NAME="T2 Coverage Results" MODIFIED="1682250518922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.webank.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_base$T456.ic" NAME="T456 Coverage Results" MODIFIED="1681531906884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.*</FILTER>
+    </SUITE>
   </component>
 </project>
