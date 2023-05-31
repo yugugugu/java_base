@@ -1,6 +1,12 @@
 package leetcode;
 
+import sun.swing.icon.SortArrowIcon;
+
 public class T31 {
+    public static void main(String[] args) {
+        T31 t31 = new T31();
+        t31.nextPermutation(new int[]{4,2,0,2,3,2,0});
+    }
     public void nextPermutation(int[] nums) {
         boolean isBreak =false;
         for (int i = nums.length-1; i >0 ; i--) {
@@ -8,27 +14,8 @@ public class T31 {
                 if (nums[i] > nums[j]){
                     int beRepalce = nums[j];
                     nums[j] = nums[i];
-                    //先找被替换数和替换数（i-j）之间有没有比被替换数大的，有的话就直接插入被替换数，然后这里到替换数之间的数往后推
-                    boolean isBreakTwo = false;
-                    for (int k = j+1; k < i ; k--) {
-                        if (beRepalce < nums[k]){
-                            for (int l = i; l > k ; l--) {
-                                nums[i] = nums[i-1];
-                            }
-                            nums[k] = beRepalce;
-                            isBreakTwo = true;
-                            break;
-                        }
-                    }
-                    if (isBreakTwo){
-                        isBreak = true;
-                        break;
-                    }
-                    //没有被替换数和替换数（i-j）之间有没有比被替换数大的，则被替换数直接放最后
-                    for (int k = i; k < nums.length-1 ; k++) {
-                        nums[k] =nums[k+1];
-                    }
-                    nums[nums.length-1] = beRepalce;
+                    nums[i] = beRepalce;
+                    sortArr(nums,j+1,nums.length);
                     isBreak = true;
                     break;
                 }
@@ -43,6 +30,22 @@ public class T31 {
                 nums[i] = nums[nums.length-1-i];
                 nums[nums.length-1-i] = temval;
             }
+        }
+    }
+
+    private void sortArr(int[] nums, int begin, int end) {
+        //传入数组begin到end部分按升序排
+        for (int i = begin; i < end; i++) {
+            int minPlace = i;
+            for (int j = i; j < end ; j++) {
+                if (nums[j] < nums[minPlace]){
+                    minPlace = j;
+                }
+            }
+
+            int temVal = nums[i];
+            nums[i] = nums[minPlace];
+            nums[minPlace] = temVal;
         }
     }
 }
